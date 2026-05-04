@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("C:/Users/Matias Corderi/Desktop/ESTUDIOS 2026/UNA - PRIMER AÑO/Informática General/Github/practica_13/img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1366px;
+}
+
+nav {
+	background-color: #004574;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline-block;
+
+}
+nav a {
+	font-size: 1.4em;
+	line-height: 2.2em;
+	padding: 0.4em 2em;
+    margin: 0.5em;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:link {
+	background-color: #6b6b6b;
+	color: #000;
+}
+nav a:visited {
+	background-color: #999;
+	color: #000;
+}
+nav a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+nav a:active {
+	background-color: #F00;
+	color: #FFF;
+}
+
+.titulo {
+    box-sizing: border-box;
+    background-color: #3f3f3f;
+    width: 20rem;
+    height: 2.5rem;
+    margin-left: 35rem;
+	padding: 0;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img1 {
+    width: 15rem;
+    box-sizing: border-box;
+    padding: 0;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 2rem;
+    margin-left: 10rem;
+    display: inline;
+    float: left;
+}
+
+.parrafo {
+    display: flex;
+    box-sizing: border-box;
+    overflow: auto;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 2rem;
+    margin-left: 55rem;
+    text-align: center;
+}
+
+footer {
+	background-color: #004574;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
